@@ -1,0 +1,162 @@
+/* montserrat-regular - latin */
+@font-face {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	src: url("./fonts/montserrat-v25-latin-regular.eot"); /* IE9 Compat Modes */
+	src: local(""),
+		url("./fonts/montserrat-v25-latin-regular.eot?#iefix")
+			format("embedded-opentype"),
+		/* IE6-IE8 */ url("./fonts/montserrat-v25-latin-regular.woff2")
+			format("woff2"),
+		/* Super Modern Browsers */ url("./fonts/montserrat-v25-latin-regular.woff")
+			format("woff"),
+		/* Modern Browsers */ url("./fonts/montserrat-v25-latin-regular.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */
+			url("./fonts/montserrat-v25-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+/* montserrat-700 - latin */
+@font-face {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	src: url("./fonts/montserrat-v25-latin-700.eot"); /* IE9 Compat Modes */
+	src: local(""),
+		url("./fonts/montserrat-v25-latin-700.eot?#iefix")
+			format("embedded-opentype"),
+		/* IE6-IE8 */ url("./fonts/montserrat-v25-latin-700.woff2") format("woff2"),
+		/* Super Modern Browsers */ url("./fonts/montserrat-v25-latin-700.woff")
+			format("woff"),
+		/* Modern Browsers */ url("./fonts/montserrat-v25-latin-700.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */
+			url("./fonts/montserrat-v25-latin-700.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+/* montserrat-900 - latin */
+@font-face {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 900;
+	src: url("./fonts/montserrat-v25-latin-900.eot"); /* IE9 Compat Modes */
+	src: local(""),
+		url("./fonts/montserrat-v25-latin-900.eot?#iefix")
+			format("embedded-opentype"),
+		/* IE6-IE8 */ url("./fonts/montserrat-v25-latin-900.woff2") format("woff2"),
+		/* Super Modern Browsers */ url("./fonts/montserrat-v25-latin-900.woff")
+			format("woff"),
+		/* Modern Browsers */ url("./fonts/montserrat-v25-latin-900.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */
+			url("./fonts/montserrat-v25-latin-900.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat";
+	color: #371030;
+	box-sizing: border-box;
+}
+
+.artboxes__form {
+	max-width: 1071px;
+	max-height: 518px;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background: url(/art_boxes/img/tube_pink.png) no-repeat -10px -20px,
+		url(/art_boxes/img/tube_yellow.png) no-repeat 105px 82px;
+}
+
+.artboxes__form-content-flex {
+	padding-left: calc(263 / 1071 * 100%);
+	padding-top: calc(167 / 1071 * 100%);
+	display: flex;
+	max-width: calc(808 / 1071 * 100%);
+	max-height: calc(351 / 518 * 100%);
+}
+
+.artboxes__form-content-flex form {
+	max-width: 40%;
+	background: #fbf7f6;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+	padding: 30px 40px 40px 40px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+.artboxes__form-content-img {
+	width: 526px;
+	height: 351px;
+	background: url(/art_boxes/img/bg_form.png) no-repeat;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+form label,
+p {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 0.04em;
+	min-width: 342px;
+	margin: 0;
+}
+
+form div {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0;
+	max-width: 324px;
+}
+
+form div input {
+	max-width: 144px;
+	line-height: 30px;
+	height: 30px;
+}
+
+form input {
+	border: none;
+	border-bottom: 1px solid #371030;
+	width: 324px;
+	padding: 0;
+	line-height: 30px;
+	height: 30px;
+}
+
+form input[type="email"] {
+	width: 324px;
+	padding: 0;
+}
+
+form input[placeholder="Комментарий"] {
+	padding-top: 20px;
+}
+
+form button[type="submit"] {
+	margin-top: 24px;
+	width: 324px;
+	height: 55px;
+	background: #ffb0ba;
+	box-shadow: 3px 3px 0px 3px #de8e98;
+	border-radius: 100px;
+	border: none;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: #9a3c48;
+}
+
+::placeholder {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	color: #371030;
+}
