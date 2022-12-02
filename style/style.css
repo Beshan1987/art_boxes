@@ -65,8 +65,8 @@ body {
 	height: 100%;
 	width: 100%;
 	margin: 0 auto;
-	background: url(/art_boxes/img/tube_pink.png) no-repeat -10px -20px,
-		url(/art_boxes/img/tube_yellow.png) no-repeat 105px 82px;
+	background: url(./img/tube_pink.png) no-repeat -10px -20px,
+		url(./img/tube_yellow.png) no-repeat 105px 82px;
 }
 
 .artboxes__form-content-flex {
@@ -89,7 +89,7 @@ body {
 .artboxes__form-content-img {
 	width: 526px;
 	height: 351px;
-	background: url(/art_boxes/img/bg_form.png) no-repeat;
+	background: url(./img/bg_form.png) no-repeat;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 }
